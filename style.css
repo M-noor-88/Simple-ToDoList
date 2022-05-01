@@ -1,0 +1,175 @@
+/* ! Second assignment  102 => 110 */
+/* .pop {
+    background-color: rgb(222, 219, 216);
+    padding: 30px;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: none;
+    -o-transition: 1s;
+    transition-property: display;
+    transform-origin: center;
+    animation: fadeIn 0.4s ease-in-out  alternate forwards;
+    -webkit-animation: fadeIn 0.4s ease-in-out  alternate forwards;
+}
+.pop h1 {
+    color: rgb(66, 48, 48);
+}
+.pop span {
+    position: absolute;
+    right:-10px;
+    top: -10px;
+    background-color: rgb(222, 73, 73);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+} */
+/* ?  End  */
+/* button {
+    color: crimson;
+    background-color: antiquewhite;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    border: 2px dashed rebeccapurple;
+} */
+
+/* ! BOM Challenge 114  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border: none;
+}
+.container  {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+}
+.container .form  {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgb(223, 215, 215);
+    width: 500px;
+    margin: 20px auto;
+}
+.container .form .input {
+    width: 350px;
+    height: 40px;
+    margin-right: 10px;   
+    padding: 10px;
+    font-size: 18px;
+}
+.container .form .input:focus {
+    outline: none;
+}
+.container .form .add {
+    padding: 10px;
+    height: 40px;
+    color: #fff;
+    background-color: darkorange;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+.container .tasks {
+    background-color: rgb(223, 215, 215);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+    .tasks .task {
+        background-color: white;
+        padding: 10px;
+        border-radius: 6px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.3s;
+        cursor: pointer;
+        border: 1px solid #ccc;
+        width: 100%;
+    }
+    
+    .tasks .task:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    
+    .tasks .task:hover {
+        background-color: #f7f7f7;
+    }
+    
+    .tasks .task.done {
+        opacity: 0.5;
+    }
+    
+    .tasks .task span {
+        font-weight: bold;
+        font-size: 10px;
+        background-color: red;
+        color: white;
+        padding: 2px 6px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+ .container   .delete-all {
+        display: flex;
+        margin: 20px auto;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 18px;
+        background-color:darkorange;
+        color: white;
+        transition: 0.4s;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -ms-transition: 0.4s;
+}
+    .container .delete-all:hover {
+        opacity: 0.8;
+    }
